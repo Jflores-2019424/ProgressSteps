@@ -3,17 +3,17 @@ function App() {
 
   return (
     <>
-      <div>
-        <div>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
-          <div>4</div>
+      <div className="container">
+        <div className="line-container">
+          <div className="number">1</div>
+          <div className="number">2</div>
+          <div className="number">3</div>
+          <div className="number">4</div>
         </div>
         
         <div>
-          <button>Prev</button>
-          <button>Next</button>
+          <button className="btn">Prev</button>
+          <button className="btn">Next</button>
         </div>
       </div>        
     </>
