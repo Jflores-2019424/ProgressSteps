@@ -68,8 +68,7 @@ body{
 }
 
 .btn:disabled{
-    background-color: white;
-    border: lightgray;
+    opacity: 0.5;
     cursor: not-allowed;
 }
 
