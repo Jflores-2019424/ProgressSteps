@@ -25,22 +25,21 @@ body{
     border-radius: 25px;
 }
 
-.line-container::before{
-    content: '';
+.line{
     background-color: beige;
+    height: 5px;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
-    height: 7px;
-    width: 100%;
     z-index: -1;
+    transform: translateY(-50%);
+    transition: 0.5s;
 }
-
-.line{
+.line.active{
     background-color: blue;
     height: 5px;
-    width: 0;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 0;

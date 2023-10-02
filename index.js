@@ -1,7 +1,8 @@
 const number = document.querySelectorAll('.number')
+const center = document.querySelectorAll("line")
 const prev = document.getElementById('prev')
 const next = document.getElementById('next')
-const line = document.getElementById('line')
+
 
 let actualActive =  1;
 
